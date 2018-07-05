@@ -1,0 +1,41 @@
+{
+  "name": "autofixr",
+  "jest": {
+    "verbose": true
+  },
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "babel-jest": "^23.0.1",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "bootstrap": "^4.1.1",
+    "bootswatch": "^4.1.1",
+    "dyson-generators": "~0.1",
+    "enzyme-adapter-react-16": "^1.1.1",
+    "jquery": "^3.3.1",
+    "popper.js": "^1.14.3",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "1.1.4",
+    "react-test-renderer": "^16.4.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "jest --watchAll",
+    "eject": "react-scripts eject",
+    "mocks": "dyson mocks/"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "dyson": "^0.10.0",
+    "enzyme": "^3.3.0",
+    "jest": "^23.1.0",
+    "mocha": "^5.2.0",
+    "react-addons-test-utils": "^15.6.2",
+    "sinon": "^6.0.1"
+  }
+}
